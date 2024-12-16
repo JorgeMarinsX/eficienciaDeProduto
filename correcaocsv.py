@@ -13,4 +13,4 @@ copies = [
 df_copies = pd.DataFrame({"Copy": copies})
 
 # Salvar o arquivo CSV (aspas duplas serão escapadas automaticamente)
-df_copies.to_csv("copies.csv", index=False)
+df_copies.to_csv("df/copies.csv", index=False)

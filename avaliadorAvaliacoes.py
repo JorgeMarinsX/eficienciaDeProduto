@@ -32,7 +32,7 @@ def processar_avaliacoes(arquivo_avaliacoes, ngram_range=(1, 2), max_features=30
     return positivas_palavras, negativas_palavras
 
 # Caminho do arquivo de avaliações
-arquivo_avaliacoes = "avaliacoes_exemplo.csv"
+arquivo_avaliacoes = "df/avaliacoes_exemplo.csv"
 
 # Processar avaliações e imprimir resultados
 positivas, negativas = processar_avaliacoes(arquivo_avaliacoes)
