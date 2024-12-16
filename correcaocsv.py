@@ -6,6 +6,7 @@ import pandas as pd
 copies = [
     """Bom dia! Por aqui gostamos de começar o nosso dia com um caloroso "bom dia"!""",
     """Nosso produto é "inovador" e "prático". Ele traz eficiência ao seu cotidiano.""",
+    """Teste de produto"""
 ]
 
 # Criar DataFrame
